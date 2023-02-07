@@ -1,6 +1,6 @@
 package oop.zad6;
 
-public interface Movable {
+interface Movable {
     void moveUp();
 
     void moveDown();
