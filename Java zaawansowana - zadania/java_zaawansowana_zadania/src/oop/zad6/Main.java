@@ -17,5 +17,19 @@ public class Main {
         movable2.moveRight();
         movable2.moveRight();
         System.out.println(movable2);
+
+        System.out.println(movablePoint1 instanceof MovablePoint);
+        //System.out.println(movablePoint1 instanceof MovableCircle);
+        System.out.println(movablePoint1 instanceof Movable);
+
+        System.out.println(movable1 instanceof MovablePoint);
+        System.out.println(movable1 instanceof MovableCircle);
+        System.out.println(movable1 instanceof Movable);
+
+        System.out.println(movable2 instanceof MovablePoint);
+        System.out.println(movable2 instanceof MovableCircle);
+        System.out.println(movable2 instanceof Movable);
+
+        
     }
 }
