@@ -30,6 +30,6 @@ public class Main {
         System.out.println(movable2 instanceof MovableCircle);
         System.out.println(movable2 instanceof Movable);
 
-        
+
     }
 }
